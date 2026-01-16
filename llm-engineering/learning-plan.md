@@ -6,9 +6,23 @@ A structured path to understanding LLM internals and building better LLM applica
 
 ## Current Status
 
-**Phase:** Not started
-**Next up:** Phase 1 - Tokenization
-**Last session:** -
+**Phase:** Phase 1 - How Text Becomes Numbers
+**Current topic:** Tokenization (in progress)
+**Last session:** 2026-01-16
+
+### Where We Left Off
+
+Covered conceptually:
+- What tokens are (the fundamental unit LLMs process)
+- Why tokens exist (sweet spot between characters and words)
+- How BPE tokenization works (merging common pairs)
+- Why case matters ("ChatGPT" vs "chatgpt" produce different tokens)
+
+**Next steps when you return:**
+1. Run through the notebook: `phase-1-tokenization/tokenization-exploration.ipynb`
+2. Experiment with the case sensitivity and word splitting examples
+3. Continue with any questions that arise
+4. When ready, move to **Embeddings** (next topic in Phase 1)
 
 ---
 
@@ -216,7 +230,7 @@ Track what we covered in each session.
 
 | Date | Phase | Topics Covered | Notes |
 |------|-------|----------------|-------|
-| - | - | - | - |
+| 2026-01-16 | Phase 1 | Tokenization (concepts) | What tokens are, BPE, case sensitivity |
 
 ---
 
@@ -226,7 +240,7 @@ Links to notebooks, notes, and projects as we build them.
 
 | Resource | Type | Phase | Link |
 |----------|------|-------|------|
-| - | - | - | - |
+| Tokenization Exploration | Notebook | Phase 1 | [tokenization-exploration.ipynb](phase-1-tokenization/tokenization-exploration.ipynb) |
 
 ---
 
