@@ -7,22 +7,18 @@ A structured path to understanding LLM internals and building better LLM applica
 ## Current Status
 
 **Phase:** Phase 1 - How Text Becomes Numbers
-**Current topic:** Tokenization (in progress)
-**Last session:** 2026-01-16
+**Current topic:** Semantic Search Project (next)
+**Last session:** 2026-01-17
 
 ### Where We Left Off
 
-Covered conceptually:
-- What tokens are (the fundamental unit LLMs process)
-- Why tokens exist (sweet spot between characters and words)
-- How BPE tokenization works (merging common pairs)
-- Why case matters ("ChatGPT" vs "chatgpt" produce different tokens)
+Completed:
+- **Tokenization** - What tokens are, BPE, case sensitivity, word splitting
+- **Embeddings** - Vectors, cosine similarity, how embeddings are learned, gradient descent, semantic search
 
 **Next steps when you return:**
-1. Run through the notebook: `phase-1-tokenization/tokenization-exploration.ipynb`
-2. Experiment with the case sensitivity and word splitting examples
-3. Continue with any questions that arise
-4. When ready, move to **Embeddings** (next topic in Phase 1)
+1. Build the **Semantic Search Tool** (Phase 1 project)
+2. Then move to **Phase 2: How LLMs Generate Text**
 
 ---
 
@@ -52,17 +48,16 @@ Everything else builds on this. You can't understand LLMs without knowing what t
 
 ### Topics
 
-- [ ] **Tokenization**
+- [x] **Tokenization**
   - Format: Notebook
   - Learn: Text → tokens → numbers. Why "ChatGPT" and "chatgpt" are different to a model
-  - Resources: _to be added_
-  - Notes: _to be added_
+  - Notebook: [tokenization-exploration.ipynb](phase-1-tokenization/tokenization-exploration.ipynb)
 
-- [ ] **Embeddings**
+- [x] **Embeddings**
   - Format: Notebook
   - Learn: Words as vectors. Similar meanings = nearby vectors
-  - Resources: _to be added_
-  - Notes: _to be added_
+  - Notebook: [embeddings-exploration.ipynb](phase-1-embeddings/embeddings-exploration.ipynb)
+  - Notes: [embeddings-notes.md](phase-1-embeddings/embeddings-notes.md)
 
 ### Project: Semantic Search Tool
 
@@ -231,6 +226,7 @@ Track what we covered in each session.
 | Date | Phase | Topics Covered | Notes |
 |------|-------|----------------|-------|
 | 2026-01-16 | Phase 1 | Tokenization (concepts) | What tokens are, BPE, case sensitivity |
+| 2026-01-17 | Phase 1 | Embeddings | Vectors, cosine similarity, training/gradient descent, semantic search |
 
 ---
 
@@ -241,6 +237,8 @@ Links to notebooks, notes, and projects as we build them.
 | Resource | Type | Phase | Link |
 |----------|------|-------|------|
 | Tokenization Exploration | Notebook | Phase 1 | [tokenization-exploration.ipynb](phase-1-tokenization/tokenization-exploration.ipynb) |
+| Embeddings Exploration | Notebook | Phase 1 | [embeddings-exploration.ipynb](phase-1-embeddings/embeddings-exploration.ipynb) |
+| Embeddings Notes | Notes | Phase 1 | [embeddings-notes.md](phase-1-embeddings/embeddings-notes.md) |
 
 ---
 
