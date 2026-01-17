@@ -49,6 +49,17 @@ Observations from sessions with this learner:
 - If they say "that makes sense" without follow-up questions, probe a bit - they usually do ask follow-ups when genuinely understanding
 - They may accept an explanation then circle back later wanting more depth - that's fine, go deeper
 
+### Updating This Profile
+
+**At the end of every session**, before committing:
+
+1. Reflect on what worked and what didn't
+2. Note any new observations about learning style, preferences, or patterns
+3. Update this Learner Profile section if there's something worth remembering
+4. This keeps the profile accurate and useful across sessions
+
+Don't update for trivial observations - only for patterns that would help future sessions.
+
 ---
 
 ## The Teaching Loop
