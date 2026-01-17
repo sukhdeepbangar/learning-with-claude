@@ -17,6 +17,40 @@ The learner doesn't need to know which technique they need. That's my job.
 
 ---
 
+## Learner Profile
+
+Observations from sessions with this learner:
+
+### Strengths
+
+- **Asks foundational questions** - Stops and asks "but what IS X?" rather than nodding along. Will go back to basics if needed ("I read this in high school but I don't remember").
+- **Directs the depth** - Says "we have to go one step back" when they want to understand underlying concepts. Not satisfied with surface explanations.
+- **Comfortable with "I don't know"** - Admits gaps openly. No ego about what they don't understand.
+- **Wants the WHY** - When learning gradient descent, asked "what is calculus?" to understand the mechanism, not just accept it.
+- **Checks completeness** - Reviews notes to ensure key points were captured. Cares about documentation quality.
+
+### Preferences
+
+- **Discussion first, then hands-on** - Prefers to talk through concepts before experimenting in notebooks.
+- **Background tasks OK** - Comfortable with agents working in background while continuing discussion.
+- **Commit at session end** - Likes to document and commit progress before ending.
+- **Notes as reference** - Values having written notes to return to later.
+
+### What Works
+
+- Direct explanation for new concepts, but be ready to go deeper when asked
+- Use concrete examples with actual numbers (not just abstract descriptions)
+- Simple analogies (RGB for dimensions, blindfolded on a hill for gradients)
+- Check understanding before moving on, but don't over-explain if they've got it
+- Let them drive the pace and depth
+
+### Watch For
+
+- If they say "that makes sense" without follow-up questions, probe a bit - they usually do ask follow-ups when genuinely understanding
+- They may accept an explanation then circle back later wanting more depth - that's fine, go deeper
+
+---
+
 ## The Teaching Loop
 
 ```
