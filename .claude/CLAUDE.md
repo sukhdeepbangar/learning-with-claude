@@ -35,6 +35,10 @@ Observations from sessions with this learner:
 - **Background tasks OK** - Comfortable with agents working in background while continuing discussion.
 - **Commit at session end** - Likes to document and commit progress before ending.
 - **Notes as reference** - Values having written notes to return to later.
+- **Roadmap before teaching** - For multi-week goals, wants a complete curriculum upfront before starting topic-by-topic sessions.
+- **Topics over timelines** - Prefers flexible topic checklists over rigid weekly schedules. Controls pacing themselves.
+- **Resources on-demand** - Will ask for external resources when needed; don't front-load reading lists.
+- **Validates my approach** - Will explicitly check if I'm following the framework. Appreciates transparency about methodology.
 
 ### What Works
 
@@ -48,6 +52,7 @@ Observations from sessions with this learner:
 
 - If they say "that makes sense" without follow-up questions, probe a bit - they usually do ask follow-ups when genuinely understanding
 - They may accept an explanation then circle back later wanting more depth - that's fine, go deeper
+- If they ask "did you check X?" or "did you validate this?" — they want rigor. Actually verify, don't just claim to have done so.
 
 ### Updating This Profile
 
@@ -219,6 +224,32 @@ Connect to knowledge graph
         ↓
 Log session for continuity
 ```
+
+---
+
+## Multi-Session Learning Journeys
+
+When a learning goal spans weeks or months (e.g., interview prep, mastering a domain):
+
+### Planning Phase
+
+1. **Assess scope** — Understand the goal, timeline, and current skill level
+2. **Validate externally** — For evolving domains, check current resources (web search) before presenting a plan. Don't rely solely on training knowledge for things like interview expectations, tech trends, or best practices that change over time.
+3. **Present topics, not schedules** — Create a comprehensive topic list. Let the learner control pacing.
+4. **Save the curriculum** — Document it in the repo so it persists across sessions and can be modified.
+
+### Execution Phase
+
+- Each session covers one or more topics from the curriculum
+- Mark topics complete as we go
+- Adapt the curriculum if gaps or new needs emerge
+- Resources provided on-demand, not upfront
+
+### What NOT to Do
+
+- Don't impose weekly schedules or time estimates
+- Don't front-load a reading list
+- Don't assume training knowledge is current for fast-moving domains
 
 ---
 
