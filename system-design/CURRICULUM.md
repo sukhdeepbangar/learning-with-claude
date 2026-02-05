@@ -8,25 +8,25 @@ Prepared for FAANG interview preparation. Topics validated against current (2025
 
 ---
 
-## Phase 1: Foundations
+## Phase 1: Foundations ✓
 
 ### Core Concepts
-- [ ] Scaling: vertical vs horizontal
-- [ ] Latency vs throughput
-- [ ] Availability, reliability, fault tolerance
-- [ ] SLIs, SLOs, SLAs (the nines)
-- [ ] CAP theorem
-- [ ] PACELC theorem
-- [ ] Consistency models (strong, eventual, causal)
+- [x] Scaling: vertical vs horizontal
+- [x] Latency vs throughput
+- [x] Availability, reliability, fault tolerance
+- [x] SLIs, SLOs, SLAs (the nines)
+- [x] CAP theorem
+- [x] PACELC theorem
+- [x] Consistency models (strong, eventual, causal)
 
 ### Estimation
-- [ ] Latency numbers everyone should know
-- [ ] Traffic estimation (DAU → QPS → peak)
-- [ ] Storage and bandwidth estimation
-- [ ] Back-of-envelope practice
+- [x] Latency numbers everyone should know
+- [x] Traffic estimation (DAU → QPS → peak)
+- [x] Storage and bandwidth estimation
+- [x] Back-of-envelope practice
 
 ### Interview Framework
-- [ ] The 7-step approach:
+- [x] The 7-step approach:
   1. Requirements clarification
   2. Back-of-envelope estimation
   3. System interface definition (API)
@@ -39,12 +39,14 @@ Prepared for FAANG interview preparation. Topics validated against current (2025
 
 ## Phase 2: Building Blocks
 
-### Load Balancing
-- [ ] L4 vs L7 load balancers
-- [ ] Algorithms (round-robin, least connections, IP hash, consistent hashing)
-- [ ] Health checks and failover
-- [ ] Active-passive vs active-active
-- [ ] Stateless design and session management
+### Load Balancing ✓
+- [x] L4 vs L7 load balancers
+- [x] Algorithms (round-robin, least connections, IP hash, consistent hashing)
+- [x] Health checks and failover
+- [x] Active-passive vs active-active
+- [x] Stateless design and session management
+- [x] SSL termination
+- [x] DNS-based load balancing (overview)
 
 ### Caching
 - [ ] Cache levels (browser, CDN, application, database)
@@ -194,4 +196,11 @@ Request these as needed during sessions:
 
 ## Progress Notes
 
-*Session notes and observations will be added here as we progress.*
+| Date | Phase | Topics Covered | Notes |
+|------|-------|----------------|-------|
+| 2026-01-28 | Phase 1 | All foundations | Core concepts, estimation, 7-step framework |
+| 2026-02-05 | Phase 2 | Load Balancing | Algorithms, L4/L7, health checks, HA patterns |
+
+**Notes:**
+- [phase-1-foundations-notes.md](phase-1-foundations-notes.md)
+- [phase-2-load-balancing-notes.md](phase-2-load-balancing-notes.md)
